@@ -1,4 +1,4 @@
-package br.com.silrait.genreciador.servlet;
+package br.com.silrait.gerenciador.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

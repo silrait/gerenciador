@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>NovaEmpresaServlet</servlet-name>
+  	<display-name>NovaEmpresaServlet</display-name>
+  	<description></description>
+  	<servlet-class>br.com.silrait.gerenciador.servlet.NovaEmpresaServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListaEmpresasServlet</servlet-name>
+  	<display-name>ListaEmpresasServlet</display-name>
+  	<description></description>
+  	<servlet-class>br.com.silrait.gerenciador.servlet.ListaEmpresasServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>NovaEmpresaServlet</servlet-name>
+  	<url-pattern>/novaEmpresa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListaEmpresasServlet</servlet-name>
+  	<url-pattern>/listaEmpresas</url-pattern>
+  </servlet-mapping>
 </web-app>
